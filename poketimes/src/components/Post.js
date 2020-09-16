@@ -7,7 +7,7 @@ class Post extends Component {
     this.props.history.push('/');
   }
   render() {
-
+    console.log(this.props)
     const post = this.props.post ? (
       <div className="post">
         <h4 className="center">{this.props.post.title}</h4>
